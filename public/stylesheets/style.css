@@ -1,0 +1,41 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+a {
+  color: #00B7FF;
+}
+
+.font-color{
+  color: #3b9dee;
+}
+
+.user-home{
+  height: 36rem;
+  border-radius: 15px;
+  border: #000000 1px solid;
+}
+.user-Name{
+  padding-top: 5rem;
+}
+
+.user-gap{
+  gap: 50px;
+}
+
+.home-table-box{
+  object-fit: cover;
+  background-color: rgb(220, 231, 225) ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+}
+
+.home-buttons{
+  padding-top:160px;
+}
+
+.table-border{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 15px;
+}

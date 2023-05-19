@@ -1,0 +1,29 @@
+<div class="container">
+<div class="row">
+<table class="table table-striped" id="myTable">
+  <thead>
+    <tr>
+      <th scope="col"><strong>No</strong></th>
+      <th scope="col"><strong>UserName</strong></th>
+      <th scope="col">Name</th>
+      <th scope="col">Edit/Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each users}}
+    <tr>
+      <th scope="row">{{@index}}</th>
+      <td>{{username}}</td>
+      <td>{{name}}</td>
+      <td><a href="/admin/edit-user/{{_id}}" class="btn btn-outline-success">Edit</a> <a href="/admin/delete-user/{{_id}}" onclick="return confirm('are you sure! you want to delete')" class="btn btn-outline-danger">Delete</a></td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+</div>
+</div>
+<script>
+  $(document).ready( function () {
+    $('#myTable').DataTable();
+});
+</script>

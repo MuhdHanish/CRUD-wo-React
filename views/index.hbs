@@ -1,0 +1,23 @@
+    <section >
+      <div class="container table-border">
+        <div class="row">
+          <div class="user-home">
+          <div class="text-center mt-3 "><h2 style="color: rgb(0, 0, 0);">Hey..{{user.username}}</h2>
+          <br><span><small><strong>Welcome To My Page</strong></small></span></div>
+
+          <div class="container">
+          <div class="row user-gap ms-5 ps-5">
+          {{#each images}}
+          <div class="col-md-4 " style="width: 16rem; ">
+          <img class="card-img-top" src="{{img}}" alt="Card image cap">
+          </div>
+          {{/each}}
+          </div>
+          </div>
+          <div class="text-center mt-2">
+          <small><strong>This is a small web site created by Muhd Hanish</strong></small>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
